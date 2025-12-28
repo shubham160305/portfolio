@@ -11,6 +11,7 @@ import {
   Database,
   Cloud,
   BrainCircuit,
+  Award,
 } from "lucide-react";
 
 export const personalInfo = {
@@ -49,6 +50,27 @@ export const experiences = [
     description: "Graduated with a focus on software engineering and a specialization in artificial intelligence. Excelled in courses on data structures, algorithms, machine learning, and natural language processing. My final year project involved building a recommendation engine from the ground up.",
   },
 ];
+
+export const certificates = [
+    {
+        title: "Machine Learning by Stanford University",
+        issuer: "Coursera",
+        year: "2023",
+        icon: Award,
+    },
+    {
+        title: "Deep Learning Specialization",
+        issuer: "Coursera",
+        year: "2023",
+        icon: Award,
+    },
+    {
+        title: "Google Advanced Data Analytics",
+        issuer: "Coursera",
+        year: "2024",
+        icon: Award,
+    }
+]
 
 export const skills = {
   chartData: [
