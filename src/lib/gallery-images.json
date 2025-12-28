@@ -1,0 +1,41 @@
+
+{
+  "galleryImages": [
+    {
+      "id": "gallery-1",
+      "imageUrl": "https://picsum.photos/seed/hike/600/400",
+      "imageHint": "mountain landscape",
+      "alt": "A scenic mountain landscape"
+    },
+    {
+      "id": "gallery-2",
+      "imageUrl": "https://picsum.photos/seed/code/600/400",
+      "imageHint": "code editor",
+      "alt": "Code on a computer screen"
+    },
+    {
+      "id": "gallery-3",
+      "imageUrl": "https://picsum.photos/seed/travel/600/400",
+      "imageHint": "city skyline",
+      "alt": "A bustling city skyline at dusk"
+    },
+    {
+      "id": "gallery-4",
+      "imageUrl": "https://picsum.photos/seed/books/600/400",
+      "imageHint": "stack books",
+      "alt": "A stack of books on a table"
+    },
+    {
+      "id": "gallery-5",
+      "imageUrl": "https://picsum.photos/seed/music/600/400",
+      "imageHint": "playing guitar",
+      "alt": "A person playing an acoustic guitar"
+    },
+    {
+      "id": "gallery-6",
+      "imageUrl": "https://picsum.photos/seed/coffee/600/400",
+      "imageHint": "coffee cup",
+      "alt": "A cup of coffee on a wooden table"
+    }
+  ]
+}
