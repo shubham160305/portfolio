@@ -73,13 +73,6 @@ export const certificates = [
 ]
 
 export const skills = {
-  chartData: [
-    { name: "AI/ML", level: 85 },
-    { name: "Backend", level: 75 },
-    { name: "Frontend", level: 70 },
-    { name: "Databases", level: 70 },
-    { name: "DevOps", level: 60 },
-  ],
   tech: [
     {
       category: "AI & Machine Learning",
