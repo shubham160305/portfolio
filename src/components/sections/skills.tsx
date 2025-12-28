@@ -11,7 +11,7 @@ import {
   Tooltip,
 } from 'recharts';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '../ui/card';
-import { ChartTooltipContent } from '../ui/chart';
+import { ChartContainer, ChartTooltipContent } from '../ui/chart';
 
 import { 
   FirebaseIcon,
@@ -52,7 +52,15 @@ export default function Skills() {
               <CardDescription>My confidence level in various development areas.</CardDescription>
             </CardHeader>
             <CardContent>
-              <div className="h-[300px]">
+              <ChartContainer
+                config={{
+                  level: {
+                    label: 'Proficiency',
+                    color: 'hsl(var(--primary))',
+                  },
+                }}
+                className="h-[300px] w-full"
+              >
                 <ResponsiveContainer width="100%" height="100%">
                   <BarChart data={skills.chartData} layout="vertical" margin={{ left: 10 }}>
                     <CartesianGrid strokeDasharray="3 3" horizontal={false} />
@@ -69,7 +77,7 @@ export default function Skills() {
                     <Bar dataKey="level" radius={[0, 4, 4, 0]} fill="hsl(var(--primary))" />
                   </BarChart>
                 </ResponsiveContainer>
-              </div>
+              </ChartContainer>
             </CardContent>
           </Card>
           
