@@ -12,7 +12,15 @@ import {
 import { Skeleton } from './ui/skeleton';
 import { personalInfo } from '@/lib/data';
 
-const roles = ['Recruiter', 'Hiring Manager', 'Software Engineer', 'Founder', 'Curious Visitor'];
+const roles = [
+  'Recruiter',
+  'Hiring Manager',
+  'Software Engineer',
+  'Data Analyst',
+  'Machine Learning Engineer',
+  'Founder',
+  'Curious Visitor',
+];
 
 export function PersonalizedIntro() {
   const [introduction, setIntroduction] = useState(personalInfo.bio);
