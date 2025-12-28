@@ -21,6 +21,7 @@ import {
   TailwindIcon,
   TypescriptIcon
 } from '../icons';
+import { BrainCircuit } from 'lucide-react';
 
 const iconMap: { [key: string]: React.ElementType } = {
   React: ReactIcon,
@@ -29,6 +30,7 @@ const iconMap: { [key: string]: React.ElementType } = {
   'Tailwind CSS': TailwindIcon,
   'Node.js': NodejsIcon,
   Firebase: FirebaseIcon,
+  Python: BrainCircuit,
 };
 
 
@@ -61,22 +63,20 @@ export default function Skills() {
                 }}
                 className="h-[300px] w-full"
               >
-                <ResponsiveContainer width="100%" height="100%">
-                  <BarChart data={skills.chartData} layout="vertical" margin={{ left: 10 }}>
-                    <CartesianGrid strokeDasharray="3 3" horizontal={false} />
-                    <XAxis type="number" hide />
-                    <YAxis
-                      dataKey="name"
-                      type="category"
-                      tickLine={false}
-                      axisLine={false}
-                      tick={{ fill: 'hsl(var(--foreground))', fontSize: 14 }}
-                      width={80}
-                    />
-                    <Tooltip cursor={{ fill: 'hsl(var(--muted))' }} content={<ChartTooltipContent indicator="dot" />} />
-                    <Bar dataKey="level" radius={[0, 4, 4, 0]} fill="hsl(var(--primary))" />
-                  </BarChart>
-                </ResponsiveContainer>
+                <BarChart data={skills.chartData} layout="vertical" margin={{ left: 10 }}>
+                  <CartesianGrid strokeDasharray="3 3" horizontal={false} />
+                  <XAxis type="number" hide />
+                  <YAxis
+                    dataKey="name"
+                    type="category"
+                    tickLine={false}
+                    axisLine={false}
+                    tick={{ fill: 'hsl(var(--foreground))', fontSize: 14 }}
+                    width={80}
+                  />
+                  <Tooltip cursor={{ fill: 'hsl(var(--muted))' }} content={<ChartTooltipContent indicator="dot" />} />
+                  <Bar dataKey="level" radius={[0, 4, 4, 0]} fill="hsl(var(--primary))" />
+                </BarChart>
               </ChartContainer>
             </CardContent>
           </Card>
