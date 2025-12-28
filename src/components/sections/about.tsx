@@ -6,13 +6,12 @@ export default function About() {
     <section id="about" className="bg-background py-16 md:py-24">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid items-center gap-12 md:grid-cols-2">
-          <div className="relative aspect-square max-w-md mx-auto">
+          <div className="relative mx-auto h-48 w-48 overflow-hidden rounded-full shadow-lg md:h-64 md:w-64">
              <Image
                 src="https://picsum.photos/seed/shubham/600/600"
                 alt="Shubham Bhagat"
-                width={600}
-                height={600}
-                className="rounded-full object-cover shadow-lg"
+                fill
+                className="object-cover"
                 data-ai-hint="professional portrait"
               />
           </div>
