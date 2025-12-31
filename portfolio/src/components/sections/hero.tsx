@@ -1,7 +1,7 @@
 import { personalInfo } from '@/lib/data';
+import { Download } from 'lucide-react';
 import { PersonalizedIntro } from '../personalized-intro';
 import { Button } from '../ui/button';
-import { Download } from 'lucide-react';
 
 export default function Hero() {
   return (
@@ -24,9 +24,9 @@ export default function Hero() {
             </a>
           </Button>
           <Button size="lg" variant="outline" asChild>
-            <a href="/resume.pdf" download>
+            <a href="/Black and White Simple Business School Graduate Corporate Resume (1) (1).pdf" download>
               <Download className="mr-2 h-5 w-5" />
-              Download CV
+              Download Resume
             </a>
           </Button>
         </div>
