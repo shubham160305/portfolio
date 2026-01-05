@@ -43,7 +43,7 @@ export const experiences = [
     role: "Bachelor of Science in Computer Science (AIML)",
     company: "Shri Ramdeobaba College of Engineering and Management ",
     period: "2023 - 2027",
-    description: "Graduated with a focus on software engineering and a specialization in artificial intelligence. Excelled in courses on data structures, algorithms, machine learning, and natural language processing. My final year project involved building a recommendation engine from the ground up.",
+    description: "Graduating with a focus on software engineering and a specialization in artificial intelligence. Excelled in courses on data structures, algorithms, machine learning, and natural language processing. My final year project involved building a recommendation engine from the ground up.",
   },
 ];
 
