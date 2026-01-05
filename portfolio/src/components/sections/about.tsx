@@ -1,4 +1,3 @@
-import profilePic from '@/assets/profile.jpeg';
 import { personalInfo } from '@/lib/data';
 import Image from 'next/image';
 
@@ -9,7 +8,7 @@ export default function About() {
         <div className="grid items-center gap-12 md:grid-cols-2">
            <div className="relative aspect-square max-w-md mx-auto">
                 <Image
-                src={profilePic}
+                src=""
                 alt="Shubham Bhagat"
                 width={600}
                 height={600}
